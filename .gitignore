@@ -63,3 +63,4 @@ typings/
 
 nodemon-debug.json
 package-lock.json
+dist/
