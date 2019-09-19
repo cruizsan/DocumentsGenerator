@@ -13,7 +13,7 @@ build with docker (easy)
 git clone https://github.com/cruizsan/DocumentsGenerator.git
 cd DocumentsGenerator;
 
-# not mandatory
+# mandatory
 # write your.env file now
 
 docker image build -t documents-generator .
