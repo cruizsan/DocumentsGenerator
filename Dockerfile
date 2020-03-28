@@ -2,10 +2,10 @@ FROM node:12-alpine
 WORKDIR /app
 
 COPY . .
-RUN npm install
-RUN npm install sqlite3 --save
+RUN npm install --silent
+RUN npm install sqlite3 --save --silent
 
-ENV UNO_URL https://raw.githubusercontent.com/dagwieers/unoconv/master/unoconv
+ENV UNO_URL https://raw.githubusercontent.com/cruizsan/DocumentsGenerator/master/unoconv
 RUN apk --no-cache add bash mc \
             curl \
             util-linux \
